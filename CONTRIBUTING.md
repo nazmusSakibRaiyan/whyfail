@@ -11,7 +11,7 @@ Thanks for your interest in contributing! This project aims to make Python error
 ### Setup
 ```bash
 # Clone
-git clone https://github.com/yourusername/whyfail.git
+git clone https://github.com/nazmusSakibRaiyan/whyfail.git
 cd whyfail
 
 # Virtual environment

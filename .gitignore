@@ -122,14 +122,28 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# IDE
+# IDE and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
 
 # Project specific
 .azure/
 *.bak
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editor backup files
+*.orig
+
