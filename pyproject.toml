@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Human-readable error explanations for Python - make errors understandable by humans, not just machines"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Nazmus Sakib Raiyan", email = "nazmuus.sakib.raiyan@g.bracu.ac.bd"}
 ]
@@ -30,7 +30,6 @@ classifiers = [
     "Topic :: Education",
     "Topic :: Software Development :: Debuggers",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
