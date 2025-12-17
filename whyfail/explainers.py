@@ -1,7 +1,7 @@
 """
 Error explainers that map exception types to human-readable explanations.
 """
-from typing import Callable, Dict, Type
+from typing import Callable, Dict, Optional, Type
 from .models import Explanation
 from .utils import get_dict_suggestions, format_value
 
@@ -276,7 +276,7 @@ def register_explainer(exception_type: Type[Exception], explainer: Callable[[Exc
     EXPLAINERS[exception_type] = explainer
 
 
-def get_explainer(exception_type: Type[Exception]) -> Callable[[Exception], Explanation] | None:
+def get_explainer(exception_type: Type[Exception]) -> Optional[Callable[[Exception], Explanation]]:
     """
     Get the explainer for an exception type, with subclass fallback.
     
