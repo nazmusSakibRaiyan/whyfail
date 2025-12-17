@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Nazmus Sakib Raiyan", email = "nazmuus.sakib.raiyan@g.bracu.ac.bd"}
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Nazmus Sakib Raiyan", email = "nazmuus.sakib.raiyan@g.bracu.ac.bd"}
 ]
 keywords = [
     "error",
@@ -41,10 +41,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/whyfail"
-Documentation = "https://github.com/yourusername/whyfail#readme"
-Repository = "https://github.com/yourusername/whyfail.git"
-Issues = "https://github.com/yourusername/whyfail/issues"
+Homepage = "https://github.com/nazmusSakibRaiyan/whyfail"
+Documentation = "https://github.com/nazmusSakibRaiyan/whyfail#readme"
+Repository = "https://github.com/nazmusSakibRaiyan/whyfail.git"
+Issues = "https://github.com/nazmusSakibRaiyan/whyfail/issues"
 
 [project.optional-dependencies]
 dev = [
